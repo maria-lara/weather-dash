@@ -2,6 +2,7 @@
 $(document).ready(function() {
 
     // Start with a function to pull info from APIs //
+    $("#display-box").hide();
 
     function weatherLookup (cityname){
     // Current Weather Forecast //
@@ -17,6 +18,7 @@ $(document).ready(function() {
             
             // Create each section for the weather elements //
             $("#current-weather").empty();
+            $("#display-box").show();
             //var cwTitle=$("#cw-title");
         
             var cityDisplay = $("<h2>").text(response.name).append("'s Current Weather:");
@@ -169,12 +171,12 @@ $(document).ready(function() {
     // Grab everything that was stored locally and put it on the page //
 
     function displaySearch(){
-
+        $("#city-list").empty();
         var previousSearch = JSON.parse(localStorage.getItem("cityname"));
 
         var lastSearch = $("<button class='btn border text-muted mt-1 bg-white' style='width: 20rem; height: 4rem'>").text(previousSearch);
         var searchSection = $("<section>");
-    
+            
             searchSection.append(lastSearch)
             $("#city-list").prepend(searchSection);
     }
