@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!--Font Awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id= "title" class="container-fluid text-center">
+        <h1>Weather Dashboard</h1>
+        <h1 style="float: left; clear: left"><img src="https://image.flaticon.com/icons/png/128/3313/3313364.png" height="200" width="200" border="1px"></h1>
+    </div>
+    <div class="container">
+        <div class="clearfix">
+            <div class="col-4 float-left">
+                <nav class="navbar navbar-light bg-light shadow-lg p-3 mb-5 bg-white rounded">
+                    <!-- Search bar and input -->
+                    <h4>Search for a City:</h4>
+                        <form class="form-inline">
+                            <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Enter a city..." aria-label="Search">
+                            <button id="search-button" class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                        <!-- Search history-->
+                    <form id="city-list" class="mt-1">
+                    </form>
+                </nav>
+            </div>
+
+            <div class="col-8 float-right">
+                <div class="card bg-light text-dark p-2 rem shadow-lg p-3 mb-5 bg-white rounded" style="width: 700; height: 19rem;">
+                     <!-- Current weather display -->
+                    <div id="current-weather"></div>
+                     <!-- Current UV index -->
+                    <div id="uv-index"></div>
+                </div>
+                    <br>
+                    <!-- 5-day forecast -->
+                    <h2>5-Day Forecast:</h2>
+                <div  id="5-forecast" class="row">
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- jQuery link -->
+    <script src="jquery3.5.0.js"></script>
+    <!-- Custom JS link -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#title {
+    background-color: #1c68c0;
+}
+
+h1 {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+body {
+    background-color: #72bcd4;
+    background-image: linear-gradient(#72bcd4,#e8f4f8 );
+    height: 1300px;
+}
+
