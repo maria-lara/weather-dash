@@ -171,7 +171,7 @@ $(document).ready(function() {
     // Grab everything that was stored locally and put it on the page //
 
     function displaySearch(){
-        $("#city-list").empty();
+    
         var previousSearch = JSON.parse(localStorage.getItem("cityname"));
 
         var lastSearch = $("<button class='btn border text-muted mt-1 bg-white' style='width: 20rem; height: 4rem'>").text(previousSearch);
