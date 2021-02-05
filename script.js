@@ -17,8 +17,9 @@ $(document).ready(function() {
             
             // Create each section for the weather elements //
             $("#current-weather").empty();
+            //var cwTitle=$("#cw-title");
         
-            var cityDisplay = $("<h1>").text(response.name).append("'s Current Weather:");
+            var cityDisplay = $("<h2>").text(response.name).append("'s Current Weather:");
             var tempDisplay = $("<h4>").text("Temperature (F): " + response.main.temp);
             var humidityDisplay = $("<h4>").text("Humidity (%): " + response.main.humidity);
             var windDisplay = $("<h4>").text("Wind Speed (MPH): " + response.wind.speed);
