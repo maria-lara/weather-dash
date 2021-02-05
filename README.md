@@ -1,17 +1,14 @@
 # weather-dash
 
 ## Description
-The purpose of this project was to create a daily planner to help people track their tasks, meetings, activities, and plans for the work day. By having a task or activity set for each hour of the work day, my hope is that workers will be more productive and not feel so overwhelmed by the lists of tasks they must complete by the end of the day. The goal of this planner is to have the user enter in their task or activity in each hour (if applicable) and have it saved for reference during the day. This planner also color-codes each hour to display what slots are available according to the time they enter in the task.
-
-* Grey background: time that has already passed
-* Red background: current time
-* Green background: time available in the future
+The purpose of this project was to create a weather dashboard so any user can access current and future weather forecasts in any city. Users can acces a location's current and future temperatures, humidity, wind speed, and UV index. 
 
 This planner includes HTML, CSS, Bootstrap, JavaScript, and jQuery 
+
 The following API's were used:
-* ![current weather api](https://openweathermap.org/current)
-* ![5 day weather api](https://openweathermap.org/forecast5)
-* ![current uv index api](https://openweathermap.org/api/uvi)
+* [OpenWeather: Current Forecast](https://openweathermap.org/current)
+* [OpenWeather: 5 Day Weather Forecast](https://openweathermap.org/forecast5)
+* [OpenWeather: UV Index](https://openweathermap.org/api/uvi)
 
 
 [Click here to check the weather in your city](https://maria-lara.github.io/weather-dash/)
