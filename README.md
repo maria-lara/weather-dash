@@ -7,9 +7,14 @@ The purpose of this project was to create a daily planner to help people track t
 * Red background: current time
 * Green background: time available in the future
 
-This planner includes HTML, CSS, Bootstrap, JavaScript, jQuery, and Moment.js 
+This planner includes HTML, CSS, Bootstrap, JavaScript, and jQuery 
+The following API's were used:
+* ![current weather api](https://openweathermap.org/current)
+* ![5 day weather api](https://openweathermap.org/forecast5)
+* ![current uv index api](https://openweathermap.org/api/uvi)
 
-[Click here to use the planner](https://maria-lara.github.io/work-planner/)
+
+[Click here to check the weather in your city](https://maria-lara.github.io/weather-dash/)
 
 # Screenshots
 Dashboard ![screenshot of dashboard](https://github.com/maria-lara/weather-dash/blob/main/Screen%20Shot%202021-02-04%20at%2011.17.16%20PM.png)
